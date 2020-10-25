@@ -17,10 +17,10 @@ p {
 .half-width {
   width: 45%;
   float: left;
-  padding-left: 5%;
+  padding-left: 4%;
 }
 .half-width img {
-  width: 50%;
+  width: 70%;
 }
 .top-banner {
   background-image: url("./images/top-banner.png");
@@ -47,14 +47,15 @@ section {
   box-shadow: 10px 10px 40px gray;
   border-radius: 5px;
   width: 30%;
-  height: 50%;
-  margin-left: 50px;
+  height: 280px;
+  margin-left: 120px;
   background-color: white;
 }
 .experiance-area {
   background-image: url(./images/new.png);
   background-repeat: no-repeat;
   background-position: left;
+  height: 400px;
 }
 #full-stuct {
   border-left: 10px solid;
@@ -69,4 +70,8 @@ section {
 footer p {
   text-align: center;
   font-size: 12px;
+}
+
+.half-width-text {
+  width: 90%;
 }
